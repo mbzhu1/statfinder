@@ -10,7 +10,7 @@ from flask import Flask, request, Response, jsonify
 import nltk 
 
 #nltk.download('stopwords')
-app = Flask(__name__, static_folder='../statfinder-web/build', static_url_path='/')
+app = Flask(__name__, static_folder='/build', static_url_path='/')
 
 @app.route('/', methods = ['GET'])
 def index():
