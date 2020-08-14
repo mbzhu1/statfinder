@@ -3,6 +3,11 @@ import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import Clients from "./Clients";
+import react_logo from "./../images/react-logo.png";
+import flask_logo from "./../images/flask-logo.png";
+import heroku_logo from "./../images/heroku-logo.png";
+import python_logo from "./../images/python-logo.png";
+
 
 function BuiltWithSection(props) {
   return (
@@ -23,24 +28,24 @@ function BuiltWithSection(props) {
         <Clients
           items={[
             {
-              name: "Instagram",
-              image: "https://uploads.divjoy.com/logo-instagram.svg",
+              name: "Python",
+              image: python_logo,
+              width: "190px",
+            },
+            {
+              name: "React",
+              image: react_logo,
+              width: "170px",
+            },
+            {
+              name: "Flask",
+              image: flask_logo,
+              width: "140px",
+            },
+            {
+              name: "Heroku",
+              image: heroku_logo,
               width: "150px",
-            },
-            {
-              name: "Slack",
-              image: "https://uploads.divjoy.com/logo-slack.svg",
-              width: "135px",
-            },
-            {
-              name: "Tinder",
-              image: "https://uploads.divjoy.com/logo-tinder.svg",
-              width: "90px",
-            },
-            {
-              name: "Spotify",
-              image: "https://uploads.divjoy.com/logo-spotify.svg",
-              width: "135px",
             },
           ]}
         />
