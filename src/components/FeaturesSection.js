@@ -16,7 +16,7 @@ function FeaturesSection(props) {
       bgImage={props.bgImage}
       bgImageOpacity={props.bgImageOpacity}
     >
-      <Container>
+      <Container id="features">
         <Row className="align-items-center">
           <Col lg={6} className="text-center text-lg-left">
             <figure className="FeaturesSection__image-container mx-auto">
@@ -27,24 +27,24 @@ function FeaturesSection(props) {
             <Features
               items={[
                 {
-                  title: "Chat",
+                  title: "Filter out the noise",
                   description:
-                    "Imagine a world where you can chat with your friends without having to see their dumb faces.",
-                  iconClass: "fas fa-comments",
+                    "StatFinder parses webpages on the internet for sentences that contain numbers (aka relevant statistics). ",
+                  iconClass: "fas fa-search",
                   iconColor: "primary",
                 },
                 {
-                  title: "Play",
+                  title: "Find what's most important",
                   description:
-                    "We embedded a bunch free flash games inside our app. What we lack in quality we make up in quantity.",
-                  iconClass: "fas fa-gamepad",
+                    "StatFinder then calculates a term frequency inverse document frequency (tfidf) for each statistic in order to rank them by relevance.",
+                  iconClass: "fas fa-sort-amount-down",
                   iconColor: "danger",
                 },
                 {
-                  title: "Cats",
+                  title: "Try it out in the terminal!",
                   description:
-                    "Our market research told us people like cats so we put some cat icons on our website.",
-                  iconClass: "fas fa-cat",
+                    "Use curl to make a post request to https://statfinder.herokuapp.com/parse with the URL you want to parse through.",
+                  iconClass: "fas fa-terminal",
                   iconColor: "dark",
                 },
               ]}

@@ -22,7 +22,7 @@ function App(props) {
           bgImage=""
           bgImageOpacity={1}
           description="A short description of what you do here"
-          copyright="© 2019 Company"
+          copyright="© 2020 Company"
           logo="https://uploads.divjoy.com/logo.svg"
         />
       </>
