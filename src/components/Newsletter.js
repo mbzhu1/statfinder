@@ -63,6 +63,15 @@ function Newsletter(props) {
       )}
 
       {subscribed === true && <div>{submitMessage}</div>}
+      {subscribed === true && (
+        <Button
+          variant={props.buttonColor}
+          size={props.size}
+          onClick={() => setSubscribed(false)}
+        >
+          Reset
+        </Button>
+      )}
     </>
   );
 }
