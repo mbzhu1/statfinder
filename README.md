@@ -22,7 +22,7 @@ Can also be used with curl in the terminal
 curl -d "url=http://google.com" -X POST https://statfinder.herokuapp.com/parse
 ```
 
-# Links
+## Links
 - Web application: [statfinder.herokuapp.com](https://statfinder.herokuapp.com/)
 - Github repository: [github.com/mbzhu1/statfinder](https://github.com/mbzhu1/statfinder)
 
